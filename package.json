@@ -1,0 +1,14 @@
+{
+  "name": "docker-browser-sync",
+  "version": "1.0.0",
+  "description": "Run browser-sync using docker. Mount a local directory as the webroot",
+  "author": "Gareth Hunt <167153+garethhunt@users.noreply.github.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/garethhunt/docker-browser-sync"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.7"
+  }
+}
