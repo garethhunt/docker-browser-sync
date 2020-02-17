@@ -11,5 +11,5 @@ $ docker build -t <your-image-name> .
 ## Run the image with local directory as the webroot
 
 ```
-$ docker run -p 3000:3000 -it --mount type=bind,source="$(pwd)"/src,target=/usr/src/app/src <your-image-name>
+$ docker run -p 3000:3000 -p 3001:3001 -it --mount type=bind,source="$(pwd)"/src,target=/usr/src/app/src <your-image-name>
 ```
